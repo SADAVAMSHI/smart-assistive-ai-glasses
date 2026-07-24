@@ -1,0 +1,6 @@
+{
+  "name": "Smart Assistive AI Glasses",
+  "description": "Interactive presentation platform for AI-Powered Smart Assistive Glasses featuring interactive 3D model, core solution showcase, architecture breakdown, and strategic roadmap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
