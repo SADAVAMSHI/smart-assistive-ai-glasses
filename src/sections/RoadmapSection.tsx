@@ -20,29 +20,6 @@ export const RoadmapSection: React.FC = () => {
         return <MapPin className="w-6 h-6 text-blue-600" />;
     }
   };
-
-  const getStatusBadge = (status: string) => {
-    switch (status) {
-      case 'Completed':
-        return (
-         
-        );
-      case 'In Development':
-        return (
-         
-        );
-      case 'Planned':
-        return (
-         
-        );
-      case 'Future Vision':
-        return (
-          
-        );
-      default:
-        return null;
-    }
-  };
   
   return (
     <section id="roadmap" ref={sectionRef} className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50 relative">
