@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
               Smart Assistive AI Glasses
             </span>
             <span className="text-xs text-slate-500 font-mono">
-              Final Year Engineering Presentation Platform © {new Date().getFullYear()}
+              © {new Date().getFullYear()}
             </span>
           </div>
         </div>
