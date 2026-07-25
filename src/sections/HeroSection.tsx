@@ -31,7 +31,7 @@ export const HeroSection: React.FC = () => {
         <div className="flex justify-center mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-semibold shadow-sm">
             <Sparkles className="w-3.5 h-3.5 text-blue-600 animate-spin" style={{ animationDuration: '6s' }} />
-            <span>Final Year Engineering Project • AI Assistive Wearable</span>
+            <span>• AI Assistive Wearable</span>
           </div>
         </div>
 
