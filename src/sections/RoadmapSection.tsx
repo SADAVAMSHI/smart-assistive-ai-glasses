@@ -21,6 +21,39 @@ export const RoadmapSection: React.FC = () => {
     }
   };
 
+  const getStatusBadge = (status: string) => {
+    switch (status) {
+      case 'Completed':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold font-mono">
+            <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
+            <span>Completed</span>
+          </span>
+        );
+      case 'In Development':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold font-mono">
+            <Clock className="w-3.5 h-3.5 text-blue-600 animate-spin" style={{ animationDuration: '4s' }} />
+            <span>Active Beta</span>
+          </span>
+        );
+      case 'Planned':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold font-mono">
+            <span>Next Phase</span>
+          </span>
+        );
+      case 'Future Vision':
+        return (
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-bold font-mono">
+            <span>Vision Phase</span>
+          </span>
+        );
+      default:
+        return null;
+    }
+  };
+  
   return (
     <section id="roadmap" ref={sectionRef} className="py-24 px-4 sm:px-6 lg:px-8 bg-slate-50 relative">
       <div className="max-w-7xl mx-auto">
