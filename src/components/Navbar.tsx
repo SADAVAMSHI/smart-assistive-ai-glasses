@@ -64,7 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             <span className="text-base font-bold tracking-tight text-slate-900 group-hover:text-blue-600 transition-colors">
               Smart Assistive <span className="text-blue-600 font-extrabold">AI Glasses</span>
             </span>
-            <span className="text-[10px] font-mono text-slate-500 tracking-wider">VISIONX • ENGINEERING PROJECT</span>
+            <span className="text-[10px] font-mono text-slate-500 tracking-wider">VISIONX • </span>
           </div>
         </a>
 
