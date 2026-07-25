@@ -109,7 +109,7 @@ export const TeamContactSection: React.FC = () => {
                 </div>
                 <div>
                   <span className="font-bold text-white block">Academic Engineering Presentation</span>
-                  <span className="text-slate-400">Final Year Capstone Project Showcase</span>
+                  <span className="text-slate-400">Project Showcase</span>
                 </div>
               </div>
             </div>
