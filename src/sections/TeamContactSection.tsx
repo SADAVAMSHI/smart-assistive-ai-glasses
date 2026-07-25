@@ -29,7 +29,7 @@ export const TeamContactSection: React.FC = () => {
             06 • ENGINEERING TEAM & CLOSING VISION
           </span>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
-            Meet the Team & Vision
+            Meet the Team Vision
           </h2>
           <p className="text-base sm:text-lg text-slate-600">
              • Smart Assistive Wearable Division
@@ -51,31 +51,6 @@ export const TeamContactSection: React.FC = () => {
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-cyan-300" /> Field Pilots in 2 Regional Hospitals</span>
               <span className="flex items-center gap-1.5"><CheckCircle2 className="w-4 h-4 text-cyan-300" /> Currency Recognition Beta</span>
             </div>
-          </div>
-        </div>
-
-        {/* Team Members Grid */}
-        <div className="mb-20">
-          <h3 className="text-2xl font-bold text-slate-900 text-center mb-8">Engineering Contributors</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {TEAM_MEMBERS.map((member, idx) => (
-              <div
-                key={idx}
-                className="bg-slate-50 rounded-3xl p-6 border border-slate-200/80 shadow-md hover:shadow-xl transition-all duration-300 text-center flex flex-col items-center"
-              >
-                <img
-                  src={member.avatar}
-                  alt={member.name}
-                  className="w-24 h-24 rounded-full object-cover mb-4 border-4 border-white shadow-md"
-                />
-                <h4 className="text-lg font-bold text-slate-900 mb-0.5">{member.name}</h4>
-                <p className="text-xs font-semibold text-blue-600 mb-2">{member.role}</p>
-                <span className="px-3 py-1 rounded-full bg-white text-slate-600 text-[11px] font-mono border border-slate-200 mb-4">
-                  {member.department}
-                </span>
-                <p className="text-xs text-slate-600 leading-relaxed">{member.contribution}</p>
-              </div>
-            ))}
           </div>
         </div>
 
