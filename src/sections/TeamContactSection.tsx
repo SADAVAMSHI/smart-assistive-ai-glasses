@@ -32,7 +32,7 @@ export const TeamContactSection: React.FC = () => {
             Meet the Team & Vision
           </h2>
           <p className="text-base sm:text-lg text-slate-600">
-            Final Year Engineering Capstone Project • Smart Assistive Wearable Division
+             • Smart Assistive Wearable Division
           </p>
         </div>
 
