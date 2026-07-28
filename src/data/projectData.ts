@@ -129,7 +129,7 @@ export const SOLUTION_HIGHLIGHTS: SolutionCardData[] = [
     highlights: ['Detachable Magnetic Unit', '360° Surround Sensing', 'Haptic Vibration Alerts'],
     description: 'A magnetic rear camera unit extends coverage to the user’s blind sector, issuing gentle directional haptic pulses whenever objects approach from behind or the side.',
     icon: 'ShieldAlert',
-    badge: 'Patent Pending'
+    badge: 'Patent Feature'
   },
   {
     id: 'currency-solution',
@@ -138,7 +138,7 @@ export const SOLUTION_HIGHLIGHTS: SolutionCardData[] = [
     highlights: ['Sub-Second Recognition', 'Audio Confirmation', 'Offline Classification'],
     description: 'Leveraging custom edge AI models, the front camera instantly scans bills held in hand and announces exact denomination values via private bone-conduction audio.',
     icon: 'CheckCircle2',
-    badge: '99.4% Accuracy'
+    badge: 'High Accuracy'
   }
 ];
 
