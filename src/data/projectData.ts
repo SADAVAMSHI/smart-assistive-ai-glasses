@@ -72,7 +72,6 @@ export const PROBLEM_CARDS: ProblemCardData[] = [
     id: 'indoor-nav',
     title: 'Indoor Navigation',
     subtitle: 'GPS Dead Zones & Complex Building Layouts',
-    metric:,
     metricLabel: 'GPS Signal Indoors',
     description: 'Standard GPS fails inside multi-story structures like hospitals, shopping malls, and airport terminals where blind individuals face confusing corridor layouts.',
     points: [
@@ -87,7 +86,6 @@ export const PROBLEM_CARDS: ProblemCardData[] = [
     id: 'monocular-vision',
     title: 'Monocular Vision Friction',
     subtitle: 'Reduced Field of View & Blind-Side Collisions',
-    metric:,
     metricLabel: 'Unseen Danger Sector',
     description: 'Individuals with monocular vision suffer from severe blind spots, impaired depth perception, and frequent collisions with unexpected obstacles on their affected side.',
     points: [
@@ -102,7 +100,6 @@ export const PROBLEM_CARDS: ProblemCardData[] = [
     id: 'cash-fraud',
     title: 'Cash & Transaction Fraud',
     subtitle: 'Vulnerability During Physical Money Exchanges',
-    metric: ,
     metricLabel: 'Visually Impaired Affected',
     description: 'Paper currency lacks tactile identifiers in many regions, making visually impaired individuals vulnerable to receiving incorrect change or counterfeit notes.',
     points: [
