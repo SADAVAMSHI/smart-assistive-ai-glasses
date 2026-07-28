@@ -122,7 +122,7 @@ export const TechStackSection: React.FC = () => {
               <span className="text-[10px] text-slate-400 uppercase font-mono">Depth Scan</span>
             </div>
             <div className="text-center px-3">
-              <span className="text-2xl font-extrabold text-blue-400 font-mono block">55g</span>
+              <span className="text-2xl font-extrabold text-blue-400 font-mono block">Light</span>
               <span className="text-[10px] text-slate-400 uppercase font-mono">Weight</span>
             </div>
           </div>
